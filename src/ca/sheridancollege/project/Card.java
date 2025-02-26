@@ -10,16 +10,29 @@ package ca.sheridancollege.project;
  * game. Students wishing to add to the code should remember to add themselves as a modifier.
  *
  * @author dancye
+ * @modifier Shehbaz Singh
  */
 public abstract class Card {
+    
     //default modifier for child classes
-
+    private Suit suit;  // e.g., "Spades", "Hearts"
+    private Rank rank;     // 2-14 (Ace being 14)
+    
+    public Card(Suit suit, Rank rank) {
+        this.suit = suit;
+        this.rank = rank;
+    }
+    
+    public Suit getSuit() { return suit; }
+    public Rank getRank() { return rank; }
     /**
      * Students should implement this method for their specific children classes
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
     @Override
-    public abstract String toString();
+    public String toString() {
+        return suit + " " + rank;
+    }
 
 }
