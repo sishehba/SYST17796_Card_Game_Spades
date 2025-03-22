@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/ca/sheridancollege/project/Game.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>6</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/Rank.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/Player.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/HumanPlayer.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/ComputerPlayer.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/GameController.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/Card.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/Suit.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/DeckOfCards.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/BhabhiGame.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/Game.java</file>
+            <file>file:/Volumes/Extreme%20SSD/Work/Assignment/SYST17796_Card_Game_Spades/src/ca/sheridancollege/project/TurnManager.java</file>
+        </group>
     </open-files>
 </project-private>

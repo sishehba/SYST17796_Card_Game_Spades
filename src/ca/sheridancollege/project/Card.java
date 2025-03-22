@@ -12,7 +12,7 @@ package ca.sheridancollege.project;
  * @author dancye
  * @modifier Shehbaz Singh
  */
-public abstract class Card {
+public class Card {
     
     //default modifier for child classes
     private Suit suit;  // e.g., "Spades", "Hearts"
@@ -25,14 +25,15 @@ public abstract class Card {
     
     public Suit getSuit() { return suit; }
     public Rank getRank() { return rank; }
+    
     /**
      * Students should implement this method for their specific children classes
      *
-     * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
+     * @return a String representation of a card. 
      */
     @Override
     public String toString() {
-        return suit + " " + rank;
+        return suit + " of " + rank;
     }
 
 }
