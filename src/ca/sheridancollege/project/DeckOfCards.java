@@ -18,10 +18,15 @@ public class DeckOfCards {
         }
         shuffle();
     }
+    
+    public int cardsInDeckCount(){
+        return this.cards.size();
+    }
 
     public void shuffle() {
         Collections.shuffle(cards);
     }
+    
 
     public Card dealCard() {
         return cards.isEmpty() ? null : cards.remove(0);
